@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ArcGIS Server REST API fun - Troubleshooting an applyEdits call 
-excerpt: When working with the ArcGIS Server REST API, examining what your application is passing to the API can shed light on problems.
+excerpt: When working with the ArcGIS Server, examining what your application is passing to the REST API can shed light on problems.
 ---
 
 Seems like everyday for the past several weeks now I've been working with the 
