@@ -138,12 +138,12 @@ Finally, piping output to a text file is simple:
 # https
 
 I just got a new box, and installed curl with Chocolatey. I went to query a REST endpoint on https, and 
-kept getting nothing back. Not sure exactly what the root cause was (installation via Chocolately, something 
+kept getting nothing back. Not sure exactly what the root cause was (installation via Chocolatey, something 
 I missed installing/config'ing on my new PC, etc.), but I fixed this by following the notes of someone with the 
 same issue that was kind enough to post it on the curl Chocolatey page of all places.
 
 1. Download the cacert.pem file from https://curl.haxx.se/docs/caextract.html
-2. Track down the actual location of the curl.exe (C:\ProgramData\chocolatey\bin in my case)
+2. Track down the actual location of the curl.exe (``C:\ProgramData\chocolatey\bin`` in my case)
 3. Put the cacert.pem file beside curl.exe
 4. Rename cacert.pem to curl-ca-bundle.crt
 5. Restart cmd
